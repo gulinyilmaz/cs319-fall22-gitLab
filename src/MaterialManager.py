@@ -22,7 +22,8 @@ class MaterialManager:
 
             case materialType.AlloyX:
                 self.carManager.setMaterial(materialType.AlloyX)
-                returnText = f"{textBaseForValidMaterial} AlloyX."
+
+                returnText = "Material is changed to AlloyX."
 
             case _:
                 returnText = "Material selection is invalid."
